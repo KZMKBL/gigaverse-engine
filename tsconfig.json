@@ -12,11 +12,15 @@
     "declarationMap": true,
     "forceConsistentCasingInFileNames": true
   },
-  
-  // 👇 KRİTİK DÜZELTME
-  // Sadece src klasöründeki her şeyi dahil et
-  "include": ["src/**/*"], 
-  
-  // Node_modules'e ve projeye ait olmayan diğer dosyalara bakmayı tamamen engelle
-  "exclude": ["node_modules", "dist", "src/scripts", "src/scenarios", "src/scripts", "**/*.test.ts", "**/*.spec.ts"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/scripts",
+    "src/scenarios",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ]
 }
