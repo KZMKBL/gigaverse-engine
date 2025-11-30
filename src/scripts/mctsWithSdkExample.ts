@@ -9,7 +9,7 @@
  * All logs in English only, production-ready.
  */
 
-import { GameClient } from "@KZMKBL/gigaverse-sdk";
+import { GameClient } from "gigaverse-sdk";
 import {
   MctsAlgorithm,
   MctsConfig,

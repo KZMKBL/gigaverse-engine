@@ -5,7 +5,7 @@ import {
   LootOption as SdkLootOption,
   EnemyEntity,
   DungeonData,
-} from "@KZMKBL/gigaverse-sdk/dist/client/types/game";
+} from "gigaverse-sdk/dist/client/types/game";
 import {
   GigaverseFighter,
   GigaverseMoveState,

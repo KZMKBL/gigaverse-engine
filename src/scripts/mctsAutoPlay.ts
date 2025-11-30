@@ -10,7 +10,7 @@
  *   ts-node scripts/mctsAutoPlay.ts
  */
 
-import { GameClient } from "@KZMKBL/gigaverse-sdk"; // adjust path if needed
+import { GameClient } from "gigaverse-sdk"; // adjust path if needed
 import { MctsAlgorithm, MctsConfig } from "../algorithms/mcts/MctsAlgorithm";
 import { buildGigaverseRunState } from "../simulator/GigaverseTransforms";
 
