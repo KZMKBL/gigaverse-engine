@@ -1,5 +1,5 @@
 {
-  "name": "@KZMKBL/gigaverse-engine",
+  "name": "gigaverse-engine",
   "version": "0.0.6",
   "description": "Local simulator and algorithms for the Gigaverse RPS game",
   "main": "dist/index.js",
@@ -9,11 +9,11 @@
   ],
   "scripts": {
     "clean": "rimraf dist",
-    "build": "pnpm clean && tsc",
+    "build": "npm run clean && tsc",
     "format": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepublishOnly": "pnpm lint && pnpm build",
+    "prepublishOnly": "npm run lint && npm run build",
     "dev": "tsc --watch"
   },
   "devDependencies": {
@@ -28,7 +28,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@KZMKBL/gigaverse-sdk": "^0.0.9",
+    "gigaverse-sdk": "github:KZMKBL/gigaverse-sdk",
     "lodash": "^4.17.21",
     "seedrandom": "^3.0.5"
   }
